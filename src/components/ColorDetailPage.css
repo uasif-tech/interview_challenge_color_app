@@ -1,0 +1,7 @@
+.detail-content-container {
+    margin-top: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    flex-grow: 1;
+}
