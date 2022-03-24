@@ -4,7 +4,7 @@ import Pagination from "@mui/material/Pagination";
 import CardComponent from "../generic/CardComponent";
 import "./MainContent.css";
 
-const MainContent = ({ colorArray, onChangeColorsPagination, count }) => {
+const MainContent = ({ colorArray, onChangeColorsPagination, handleColorDetails, count }) => {
   return (
     <div className="main-content">
       <Grid container spacing={3}>
@@ -19,7 +19,7 @@ const MainContent = ({ colorArray, onChangeColorsPagination, count }) => {
               xl={2}
               key={data.title + index}
             >
-              <CardComponent colorObject={data} />
+              <CardComponent colorObject={data} handleColorDetails={handleColorDetails} />
             </Grid>
           );
         })}

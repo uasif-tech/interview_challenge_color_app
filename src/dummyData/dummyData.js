@@ -127,7 +127,7 @@ export const colorArray = [
       { title: "#F0E68C", backgroundColor: "#F0E68C" },
       { title: "#FFD700", backgroundColor: "#FFD700" },
     ],
-    backgroundColor: "#800000",
+    backgroundColor: "#FFFF00",
   },
   {
     title: "Maroon",
@@ -137,7 +137,7 @@ export const colorArray = [
       { title: "#8b0000", backgroundColor: "#8b0000" },
       { title: "#be0032", backgroundColor: "#be0032" },
     ],
-    backgroundColor: "#FFFF00",
+    backgroundColor: "#800000",
   },
   {
     title: "Tan",

@@ -4,10 +4,16 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 
-const CardComponent = ({ colorObject, height }) => {
+const CardComponent = ({ colorObject, height, handleColorDetails }) => {
   return (
     <Card
-      sx={{ maxWidth: height ? "100%" : 250, marginTop: 5, borderRadius: 2 }}
+      onClick={() => handleColorDetails(colorObject)}
+      sx={{
+        maxWidth: height ? "100%" : 250,
+        marginTop: 5,
+        borderRadius: 2,
+        cursor: "pointer",
+      }}
     >
       <CardMedia
         component="img"

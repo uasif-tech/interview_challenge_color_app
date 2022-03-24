@@ -38,6 +38,7 @@ export default function Dashboard() {
       {!colorDetails && (
         <MainContent
           colorArray={colors}
+          handleColorDetails={handleColorDetails}
           count={colorArray.length / 10}
           onChangeColorsPagination={paginatedColors}
         />
